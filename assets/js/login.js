@@ -77,7 +77,7 @@ $(function () {
                 console.log(res.token);
                 localStorage.setItem('token', res.token);
                 // 跳转
-                location.href = '/index.htmls';
+                location.href = '/index.html';
             }
         });
     });

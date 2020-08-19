@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>大事件-登陆/注册页面</title>
-    <link rel="stylesheet" href="./assets/lib/layui/css/layui.css">
-    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="/assets/lib/layui/css/layui.css">
+    <link rel="stylesheet" href="/assets/css/login.css">
 </head>
 
 <body>
     <!-- 头部logo区域 -->
     <div class="layui-main">
-        <img src="./assets/images/logo.png" alt="">
+        <img src="/assets/images/logo.png" alt="">
     </div>
     <!-- 登录注册区域 -->
     <div class="loginAndRegBox">
@@ -24,13 +24,13 @@
                 <!-- 用户名 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-username"></i>
-                    <input value="lvchao123" type="text" name="username" required lay-verify="required|phone"
-                        placeholder="请输入用户名" autocomplete="off" class="layui-input">
+                    <input value="z0313" type="text" name="username" required lay-verify="required" placeholder="请输入用户名"
+                        autocomplete="off" class="layui-input">
                 </div>
                 <!-- 密码 -->
                 <div class="layui-form-item">
                     <i class="layui-icon layui-icon-password"></i>
-                    <input value="123123" type="password" name="password" required lay-verify="required|pwd"
+                    <input value="123456" type="password" name="password" required lay-verify="required|pwd"
                         placeholder="请输入密码" autocomplete="off" class="layui-input">
                 </div>
                 <!-- 登录按钮 -->
@@ -77,14 +77,14 @@
         </div>
     </div>
 
-    <!-- 5.0引入layui.all.js, 因为这个文件中没有使用window.onload, 所以要求全部写到最低端! -->
-    <script src="./assets/lib/layui/layui.all.js"></script>
+    <!-- 引入layui.all.js, 因为这个文件中没有使用window.onload, 所以要求全部写到最低端! -->
+    <script src="/assets/lib/layui/layui.all.js"></script>
     <!-- 引入jQuery.js文件 -->
-    <script src="./assets/lib/jquery.js"></script>
+    <script src="/assets/lib/jquery.js"></script>
     <!-- 引入自己封装的baseAPI.js -->
-    <script src="./assets/js/baseAPI.js"></script>
+    <script src="/assets/js/baseAPI.js"></script>
     <!-- 引入自己的login.js文件 -->
-    <script src="./assets/js/login.js"></script>
+    <script src="/assets/js/login.js"></script>
 </body>
 
 </html>
